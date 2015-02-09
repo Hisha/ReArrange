@@ -8,5 +8,73 @@
                 android:paddingBottom="@dimen/activity_vertical_margin"
                 tools:context="com.HishaTech.android.rearrange.ReArrangeActivity">
 
+    <GridLayout
+        android:id="@+id/gridWord"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="5dp"
+        android:rowCount="1"
+        android:stretchMode="columnWidth">
+
+        <LinearLayout
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:id="@+id/LetterOne"
+            android:background="@drawable/shape"
+            android:orientation="horizontal"/>
+
+        <LinearLayout
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:id="@+id/LetterTwo"
+            android:background="@drawable/shape"
+            android:orientation="horizontal"/>
+
+        <LinearLayout
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:id="@+id/LetterThree"
+            android:background="@drawable/shape"
+            android:orientation="horizontal"/>
+
+        <LinearLayout
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:id="@+id/LetterFour"
+            android:background="@drawable/shape"
+            android:orientation="horizontal"/>
+
+        <LinearLayout
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:id="@+id/LetterFive"
+            android:background="@drawable/shape"
+            android:orientation="horizontal"/>
+
+        <LinearLayout
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:id="@+id/LetterSix"
+            android:background="@drawable/shape"
+            android:orientation="horizontal"/>
+
+        <LinearLayout
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:id="@+id/LetterSeven"
+            android:background="@drawable/shape"
+            android:orientation="horizontal"/>
+
+        <LinearLayout
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:id="@+id/LetterEight"
+            android:background="@drawable/shape"
+            android:orientation="horizontal"/>
+
+    </GridLayout>
 
 </RelativeLayout>
