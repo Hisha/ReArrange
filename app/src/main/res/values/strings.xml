@@ -12,4 +12,10 @@
     <!-- About Activity Related -->
     <string name="aboutAct">About</string>
 
+    <!-- Splash Activity Related -->
+    <string name="firstline_activity_splash">ReArrange</string>
+    <string name="secondline_activity_splash">Can you find the correct
+    order.</string>
+    <string name="url_activity_splash">www.hishatech.com</string>
+
 </resources>
