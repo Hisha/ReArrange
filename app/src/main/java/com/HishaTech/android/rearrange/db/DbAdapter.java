@@ -2,6 +2,7 @@ package com.HishaTech.android.rearrange.db;
 
 import android.content.ContentValues;
 import android.content.Context;
+import android.content.res.AssetManager;
 import android.database.Cursor;
 import android.database.SQLException;
 import android.database.sqlite.SQLiteDatabase;
@@ -12,6 +13,7 @@ import com.HishaTech.android.rearrange.db.model.Words;
 
 import java.io.BufferedReader;
 import java.io.IOException;
+import java.io.InputStream;
 import java.io.InputStreamReader;
 
 /**
@@ -163,8 +165,9 @@ public class DbAdapter {
 
         BufferedReader br = null;
         try {
-            br = new BufferedReader(new InputStreamReader(context.getAssets()
-                    .open(FileName)), 1024 * 4);
+            AssetManager am = context.getAssets();
+            InputStream is = am.open(FileName);
+            br = new BufferedReader(new InputStreamReader(is), 1024 * 4);
             String line = null;
             mDb.beginTransaction();
             while ((line = br.readLine()) != null) {

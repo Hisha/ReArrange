@@ -22,6 +22,7 @@ public class MainActivity extends ActionBarActivity {
         getMenuInflater().inflate(R.menu.menu_main, menu);
         return true;
     }
+
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
@@ -30,6 +31,11 @@ public class MainActivity extends ActionBarActivity {
                 this.startActivity(Aboutintent);
                 break;
 
+            case R.id.ReArrange:
+                Intent ReArrangeintent = new Intent(this,
+                        ReArrangeActivity.class);
+                this.startActivity(ReArrangeintent);
+                break;
         }
         return false; // should never happen
     }

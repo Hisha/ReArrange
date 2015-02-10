@@ -18,4 +18,11 @@
     order.</string>
     <string name="url_activity_splash">www.hishatech.com</string>
 
+    <!-- ReArrange Activity Related -->
+    <string name="aboutReArrange">ReArrange</string>
+
+    <!-- Update DB Related -->
+    <string name="UpdateDb">Update DB</string>
+    <string name="toast_update_words">Words table updated!</string>
+
 </resources>

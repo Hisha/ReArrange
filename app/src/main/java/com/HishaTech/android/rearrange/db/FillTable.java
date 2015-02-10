@@ -12,11 +12,11 @@ import java.io.InputStreamReader;
  */
 public class FillTable {
 
-    public static void Words(Context context) {
+    public static void Words(Context context, String FileName) {
 
         DbAdapter db = new DbAdapter(context);
         db.open();
-        db.insertBulkWords(context, DbConstants.WordListFile);
+        db.insertBulkWords(context, FileName);
         db.close();
 
     }

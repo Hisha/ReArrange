@@ -32,6 +32,9 @@ public class DbConstants {
             + " integer not null);";
 
     // Words table wordlist
-    public static final String WordListFile = "insertWrods.txt";
+    public static final String WordListFile01 = "insertWords01.txt";
+    public static final String WordListFile02 = "insertWords02.txt";
+    public static final String WordListFile03 = "insertWords03.txt";
+    public static final String WordListFile04 = "insertWords04.txt";
 
 }
