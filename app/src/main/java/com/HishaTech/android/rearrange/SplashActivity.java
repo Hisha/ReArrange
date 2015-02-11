@@ -34,7 +34,7 @@ public class SplashActivity extends Activity {
             AsyncFillWords04 afw04 = new AsyncFillWords04(this);
             afw04.execute();
 
-            int myTimer = 5000;
+            int myTimer = 15000;
             new Handler().postDelayed(new Runnable() {
                 @Override
                 public void run() {
@@ -47,7 +47,7 @@ public class SplashActivity extends Activity {
 
         } else {
 
-            int myTimer = 5000;
+            int myTimer = 3000;
             new Handler().postDelayed(new Runnable() {
                 @Override
                 public void run() {
