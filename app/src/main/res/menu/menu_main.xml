@@ -11,6 +11,6 @@
     <item
         android:id="@+id/ReArrange"
         android:icon="@android:drawable/ic_menu_info_details"
-        android:title="@string/aboutReArrange"/>
+        android:title="@string/rearrangeAct"/>
 
 </menu>

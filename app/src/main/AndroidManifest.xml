@@ -18,6 +18,11 @@
             android:screenOrientation="portrait"
             android:configChanges="orientation|keyboardHidden"/>
         <activity
+            android:name=".ReArrangeActivity"
+            android:label="@string/rearrangeAct"
+            android:screenOrientation="portrait"
+            android:configChanges="orientation|keyboardHidden"/>
+        <activity
             android:name="com.HishaTech.android.rearrange.SplashActivity"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.Black.NoTitleBar"
